@@ -1,0 +1,87 @@
+<!-- # Airbnb Mockup
+
+Lots of websites, including Facebook and Airbnb, use Flexbox layouts to display common elements, such as information cards, photos, and other information. The best way to learn how to create these different layouts is to try them ourselves.
+
+## Layout Target
+
+<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/solution.jpg" alt="Layout Solution" width="900"/>
+
+## Getting Started
+* Use Google Font Roboto, close match
+* Color of off white background: #ebefec | dark gray: rgb(89,92,96)
+* Images are included at:
+  * https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/san-francisco-2.jpg
+  * https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/napa.jpg
+  * https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/new-york.jpg
+  * https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/sonoma.jpg
+  * https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/san-francisco.jpg
+  * https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/london.jpg 
+
+## Requirements
+* Look at the deliverable screenshot and see how well you can match it.
+* Keep the following in mind when recreating the screenshot
+  * Using the right font
+  * Obtaining and using relevant images
+  * Aligning the text in the center of each image
+  * Aligning the images in the center of each page
+  * Thinking of the layout in terms of rows and columns
+
+## Deliverable
+
+Deliver the mockup as close as possible. In addition, code should be well-indented, follow best practices and pass a CSS validator.
+
+---
+
+## Licensing
+1. All content is licensed under a CC-BY-NC-SA 4.0 license.
+2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co. 
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="site-container">
+            <div class="title">Meet Guidebooks</div>
+            <div class="description">Discover hundreds of local spots recommended by Airbnb hosts</div>
+            <div class="image-container">
+                <div class="card">
+                    <img class="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/san-francisco.jpg">
+                    <div class="image-description">San Francisco</div>
+                </div>
+                <div class="card">
+                    <img class="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/new-york.jpg">
+                    <div class="image-description">New York</div>
+                </div>
+                <div class="card">
+                    <img class="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/london.jpg">
+                    <div class="image-description">London</div>
+                </div>
+            </div>
+            <button class="button">See All Guidebooks</button>
+            <div class="title">Just for the weekend</div>
+            <div class="description">Discover new, inspiring places close to home</div>
+            <div class="image-container">
+                <div class="card">
+                    <img class="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/napa.jpg">
+                    <div class="image-description">Napa</div>
+                </div>
+                <div class="card">
+                    <img class="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/sonoma.jpg">
+                    <div class="image-description">Sonoma</div>
+                </div>
+                <div class="card">
+                    <img class="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/san-francisco-2.jpg">
+                    <div class="image-description">San Francisco</div>
+                </div>
+            </div>
+            <button class="button">See All Destinations</button>
+        </div>
+
+    </body>
+
+</html>

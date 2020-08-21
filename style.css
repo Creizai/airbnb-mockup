@@ -1,0 +1,57 @@
+body {
+  background-color: #ebefec;
+  margin: 25px auto;
+  color: rgb(89, 92, 96);
+  font-family: "Roboto", sans-serif;
+}
+
+.site-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 18px;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 12px 0;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 10px 8px;
+}
+
+.image {
+  height: 200px;
+  width: 175px;
+}
+
+.image-description {
+  font-weight: bold;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button {
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 0 20px;
+  font-family: "Roboto", sans-serif;
+}
